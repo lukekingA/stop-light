@@ -38,13 +38,14 @@
 
 .light-body div:hover {
   border: 2.5px solid rgba(255, 255, 255, 0.705);
-  background: rgb(250, 60, 60);
-  box-shadow: 0 0 3px 15px rgba(253, 72, 72, 0.575);
+
 }
 
 .green {
   background: green;
 }
+
+.green:hover {}
 
 .yellow {
   background: yellow;
@@ -52,4 +53,9 @@
 
 .red {
   background: red;
+}
+
+.red:hover {
+  background: rgb(250, 60, 60);
+  box-shadow: 0 0 20px 20px rgba(253, 72, 72, 0.575);
 }
