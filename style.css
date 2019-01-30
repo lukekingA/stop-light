@@ -1,0 +1,55 @@
+.center {}
+
+.container {
+  background: repeating-linear-gradient(45deg,
+    rgb(59, 59, 59),
+    rgb(59, 59, 59) 4px,
+    rgb(112, 112, 112) 4px,
+    rgb(112, 112, 112) 6px);
+  height: 100vh;
+}
+
+.post {
+  width: 3rem;
+  height: 10vh;
+  margin: 10px auto 0 auto;
+  background: rgb(51, 51, 51);
+}
+
+.light-body {
+  background: rgb(60, 60, 60);
+  width: 8rem;
+  height: 40vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.light {
+  margin: auto;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  border: 2px solid black;
+
+}
+
+.light-body div:hover {
+  border: 2.5px solid rgba(255, 255, 255, 0.705);
+  background: rgb(250, 60, 60);
+  box-shadow: 0 0 3px 15px rgba(253, 72, 72, 0.575);
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
